@@ -1,8 +1,9 @@
-#include <iostream>
+#include "GameEngine.h"
 
-int main(int argc, char *argv[])
+int main(int argc, const char *argv[])
 {
-	std::cout << "Hello, world\n";
-	
+	GameEngine game;
+	game.Run();
+
 	return 0;
 }
