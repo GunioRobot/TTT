@@ -16,7 +16,7 @@ GameBoard::GameBoard()
 	}
 }
 
-void GameBoard::Render() 
+void GameBoard::Render()
 {
 	for(int r = 0; r < BOARD_HEIGHT; ++r) {
 		for(int c = 0; c < BOARD_WIDTH; ++c) {
